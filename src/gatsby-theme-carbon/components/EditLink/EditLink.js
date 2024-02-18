@@ -30,7 +30,7 @@ const EditLink = ({ relativePagePath, repository: repositoryProp }) => {
   return baseUrl ? (
     <div className={`cds--row ${row}`}>
       <div className="cds--col">
-        <a className={link} href={href}>
+        <a className={link} href={href} target="_blank" rel="noopener noreferrer">
           Edit this page on GitHub
         </a>
       </div>
