@@ -23,7 +23,7 @@ module.exports = {
       options: {
         repository: {
           baseUrl:
-            'https://github.com/learning-transformation/learning-transformation.github.io',
+            'https://github.dev/learning-transformation/learning-transformation.github.io',
         },
         isSwitcherEnabled: false,
         titleType: 'prepend',  
