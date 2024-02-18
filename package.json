@@ -1,0 +1,19 @@
+{
+  "name": "learning-transformation",
+  "private": true,
+  "version": "4.0.0-next.2",
+  "license": "Apache 2.0",
+  "scripts": {
+    "dev": "gatsby clean && gatsby develop -H 0.0.0.0",
+    "build": "gatsby clean && gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@carbon/icons-react": "^11.26.0",
+    "gatsby": "^5.12.4",
+    "gatsby-theme-carbon": "^4.0.0-next.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

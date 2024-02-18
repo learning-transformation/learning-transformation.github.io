@@ -1,0 +1,27 @@
+- title: メンタリング・ガイド
+  pages:
+    - title: まえがき
+      path: /mentoring/preface
+    - title: 目次
+      path: /mentoring/contents
+    - title: 第1章　概念
+      path: /mentoring/chapter-1
+    - title: 第2章　理解・準備
+      path: /mentoring/chapter-2
+    - title: 第3章　実践
+      path: /mentoring/chapter-3
+    - title: 第4章　ケーススタディ
+      path: /mentoring/chapter-4
+    - title: 第5章　発展
+      path: /mentoring/chapter-5
+    - title: あとがき
+      path: /mentoring/afterword
+    - title: 参考文献・参考情報
+      path: /mentoring/references
+    - title: 索引
+      path: /mentoring/index
+    - title: 著者紹介
+      path: /mentoring/author
+- title: このサイトについて
+  pages:
+    - path: /about
