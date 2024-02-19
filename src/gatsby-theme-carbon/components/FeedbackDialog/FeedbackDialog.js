@@ -1,13 +1,16 @@
 import React from 'react';
 import ThemeFeedbackDialog from 'gatsby-theme-carbon/src/components/FeedbackDialog/FeedbackDialog';
 
-const url = 'https://us-south.functions.appdomain.cloud/api/v1/web/5e37a8f0-05d0-4bf4-95d1-c3d27e127b8b/default/web-feedback.json';
+const url = 'https://worker-lx-feedback.dia-f40.workers.dev';
 
 const FeedbackDialog = ({ props }) => {
   const onSubmit = (data) => {
     fetch(url, {
       method: 'POST',
       body: JSON.stringify({ ...data }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
     }).then((res) => 
       res.json()
     ).then((json) => {
